@@ -24,7 +24,7 @@ Don`t forget to change image paths if CSS file is not in the same directory as i
 
       <link rel="stylesheet" href="path-to-file/fancybox.css" type="text/css" media="screen">
       
-3. Create a link element (<a href>) 
+3. Create a link element (a) 
 
 For images:
     
