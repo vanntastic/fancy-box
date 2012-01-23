@@ -7,7 +7,6 @@
  * Requires: jQuery v1.3+
 */
 ;(function($) {
-
 	$.fn.fixPNG = function() {
 		return this.each(function () {
 			var image = $(this).css('backgroundImage');
