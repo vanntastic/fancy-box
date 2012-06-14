@@ -7,7 +7,6 @@
  * Requires: jQuery v1.3+
 */
 ;(function($) {
-
 	$.fn.fixPNG = function() {
 		return this.each(function () {
 			var image = $(this).css('backgroundImage');
@@ -479,7 +478,10 @@
 		return false;
 	};
 
-	$.fn.fancybox.build = function() {
+	$.fn.fancybox.build = function(custom_html) {
+		if(customer_html)
+		    return custom_html;
+	
 		var html = '';
 
 		html += '<div id="fancy_overlay"></div>';
